@@ -4,7 +4,7 @@
 ## Copyright (C) 2001-2015 Jan Garaj - www.jangaraj.com
 ## Doc: http://wiki.servicenow.com/index.php?title=Python_Web_Services_Client_Examples
 ## WSDL doc: https://<your_instance>.service-now.com/incident.do?WSDL
-##
+## Forked to nabangi git repository
 
 debug     = 0                 # 0/1 - enable/disable debug outputs
 instance  = 'your_instance'   #
@@ -22,7 +22,7 @@ Incorrect usage of Create Service-Now incident from Zabbix script
 
 Example:
    zabbix-create-service-now-incident.py <to> <subject> <message>
-   zabbix-create-service-now-incident.py "Jan Garaj" "PROBLEM" "
+   zabbix-create-service-now-incident.py "Alvaro" "PROBLEM" "
 Trigger: Zabbix Server is down
 Trigger description: Zabbix Server is down, please check it immediately
 Trigger severity: Hight
@@ -32,7 +32,7 @@ Trigger URL:
 Host: zabserver01
 Host description: Main Zabbix Server
 Event age: 10s
-Current Zabbix time: 2015.06.19 21:23:12
+Current Zabbix time: 2020.06.04 21:23:12
 
 Item values:
 
